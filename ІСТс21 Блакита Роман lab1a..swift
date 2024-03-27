@@ -1,7 +1,7 @@
 // declaration of variables
 let operation: String? = "*"
-let operand1: Int? = 10 // Задайте перший операнд
-let operand2: Int? = 5 // Задайте другий операнд
+let operand1: Int? = 10 
+let operand2: Int? = 5 
 
 // Function to add
 func add(_ a: Int, _ b: Int) -> Int {
