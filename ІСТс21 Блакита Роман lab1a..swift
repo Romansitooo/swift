@@ -1,31 +1,31 @@
-// Оголошуємо змінні
-let operation: String? = "*" // Задайте бажану операцію: "+", "-", "*", "/"
+// declaration of variables
+let operation: String? = "*"
 let operand1: Int? = 10 // Задайте перший операнд
 let operand2: Int? = 5 // Задайте другий операнд
 
-// Функція для додавання
+// Function to add
 func add(_ a: Int, _ b: Int) -> Int {
     return a + b
 }
 
-// Функція для віднімання
+// Subtraction function
 func subtract(_ a: Int, _ b: Int) -> Int {
     return a - b
 }
 
-// Функція для множення
+// Function for multiplication
 func multiply(_ a: Int, _ b: Int) -> Int {
     return a * b
 }
 
-// Функція для ділення
+// Function for division
 func divide(_ a: Int, _ b: Int) -> Int {
     return a / b
 }
 
-// Перевіряємо, чи всі змінні мають значення
+// Checking if all variables have values
 if let operation = operation, let operand1 = operand1, let operand2 = operand2 {
-    // Обчислюємо результат в залежності від операції
+    // I calculate the result depending on the operation
     switch operation {
     case "+":
         print("Результат: \(add(operand1, operand2))")
